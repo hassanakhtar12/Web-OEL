@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./img/gradienta-LeG68PrXA6Y-unsplash.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+.container{
+    position:relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    /* background: #e28dca8e; */
+   
+
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+
+.form{
+
+    padding: 20px 40px;
+
+}
+.form >.font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0px;
+     
+}
+.form>input{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form >.font2{
+    margin-top: 30px;
+}
+.form>button{
+    margin: 45px 0px 30px 0px;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(255, 210, 217);
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid  black;
+    transition: .5s;
+
+}
+.form>button:hover{
+    background-color: rgb(252, 76, 102);
+}
+.form>#email_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #f70e0e;
+    text-align: center;
+    padding: 5px 8px;
+    display: none;
+    
+
+}
+.form>#pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #f70e0e;
+    text-align: center;
+    padding: 5px 8px;
+    display: none;
+}
